@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>LogLet</servlet-name>
+    <servlet-class>com.servlet.LogLet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogLet</servlet-name>
+    <url-pattern>/LogLet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RegLet</servlet-name>
+    <servlet-class>com.servlet.RegLet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegLet</servlet-name>
+    <url-pattern>/RegLet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>TransferServlet</servlet-name>
+    <servlet-class>com.servlet.TransferServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TransferServlet</servlet-name>
+    <url-pattern>/TransferServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>SelectServlet</servlet-name>
+    <servlet-class>com.servlet.SelectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectServlet</servlet-name>
+    <url-pattern>/SelectServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
